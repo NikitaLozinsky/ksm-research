@@ -1,0 +1,13 @@
+asus_throttle_thermal_policy=1
+power_profile=performance
+AC0_online=1
+BAT0_capacity=80
+ucsi-source-psy-USBC000:001_online=0
+cpu0: governor=powersave epp=performance
+cpu1: governor=powersave epp=performance
+cpu2: governor=powersave epp=performance
+cpu3: governor=powersave epp=performance
+cpu4: governor=powersave epp=performance
+cpu5: governor=powersave epp=performance
+cpu6: governor=powersave epp=performance
+cpu7: governor=powersave epp=performance

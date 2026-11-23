@@ -1,0 +1,10 @@
+# логический ЦП: братья по SMT (thread_siblings_list), ядро (core_id)
+cpu0: siblings=0,4 core_id=0
+cpu1: siblings=1,5 core_id=1
+cpu2: siblings=2,6 core_id=2
+cpu3: siblings=3,7 core_id=3
+cpu4: siblings=0,4 core_id=0
+cpu5: siblings=1,5 core_id=1
+cpu6: siblings=2,6 core_id=2
+cpu7: siblings=3,7 core_id=3
+smt_active=1

@@ -1,0 +1,7 @@
+# Нагрузка «Node.js»: express.
+FROM docker.io/library/node:22-alpine
+WORKDIR /app
+RUN npm install --omit=dev express@4.21.2 && npm cache clean --force
+COPY server.js /app/server.js
+EXPOSE 8000
+CMD ["node", "server.js"]

@@ -1,0 +1,24 @@
+systemd-detect-virt=none
+product_name=Vivobook_ASUSLaptop X3400PA_K3400PA
+sys_vendor=ASUSTeK COMPUTER INC.
+bios_version=X3400PA.206
+# строки dmesg про гипервизор/таймеры:
+[    0.000000] tsc: Detected 3100.000 MHz processor
+[    0.000000] tsc: Detected 3110.400 MHz TSC
+[    0.000000] [Firmware Bug]: TSC ADJUST: CPU0: -1060633432 force to 0
+[    0.014404] TSC deadline timer available
+[    0.014428] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[    0.089815] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[    0.096515] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2cd5a8bb032, max_idle_ns: 440795365915 ns
+[    0.007703] [Firmware Bug]: TSC ADJUST differs within socket(s), fixing all errors
+[    0.429680] clocksource: Switched to clocksource tsc-early
+[    0.438562] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.441954] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2cd5a8bb032, max_idle_ns: 440795365915 ns
+[    0.441999] clocksource: Switched to clocksource tsc
+[    3.184395] vboxdrv: loading out-of-tree module taints kernel.
+[    3.184401] vboxdrv: module verification failed: signature and/or required key missing - tainting kernel
+[    3.195007] vboxdrv: Found 8 processor cores/threads
+[    3.306693] vboxdrv: TSC mode is Invariant, tentative frequency 3110400156 Hz
+[    3.306697] vboxdrv: Successfully loaded version 7.2.22 r175245 (interface 0x00390002)
+[    3.324269] VBoxNetFlt: Successfully started.
+[    3.324294] VBoxNetAdp: Successfully started.

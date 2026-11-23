@@ -1,0 +1,4 @@
+# $ sysctl kernel.sched_autogroup_enabled kernel.timer_migration kernel.numa_balancing
+kernel.sched_autogroup_enabled = 1
+kernel.timer_migration = 1
+kernel.numa_balancing = 0

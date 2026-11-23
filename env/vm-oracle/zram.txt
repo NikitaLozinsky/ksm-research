@@ -1,0 +1,3 @@
+# $ zramctl --output-all
+NAME       DISKSIZE DATA COMPR ALGORITHM STREAMS ZERO-PAGES TOTAL MEM-LIMIT MEM-USED MIGRATED COMP-RATIO MOUNTPOINT
+/dev/zram0       4G   4K   64B zstd                       0   20K        0B      20K       0B     0.2000 [SWAP]

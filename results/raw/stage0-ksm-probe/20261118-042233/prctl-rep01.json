@@ -1,0 +1,59 @@
+{
+  "run": {
+    "experiment": "stage0-ksm-probe",
+    "mode": "prctl",
+    "rep": 1,
+    "mib": 256,
+    "distinct": 1024,
+    "duration_s": 60,
+    "pre_s": 5,
+    "interval_s": 0.5,
+    "thp_flag": "default",
+    "order": "none madvise prctl",
+    "probe_pid": 279742
+  },
+  "timestamp_utc": "2026-11-18T01:25:14.644609+00:00",
+  "host": {
+    "hostname": "archarnel",
+    "virt": "none",
+    "kernel": "7.3.4-arch1-2",
+    "nproc": 8,
+    "mem_total": "16040100 kB",
+    "swap_total": "8020988 kB",
+    "swaps": "Filename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n/dev/zram0                              partition\t8020988\t\t0\t\t100",
+    "clocksource": "tsc",
+    "thp_enabled": "[always] madvise never",
+    "thp_defrag": "always defer defer+madvise [madvise] never",
+    "loadavg": "0.38 0.74 0.75 1/882 279758"
+  },
+  "ksm": {
+    "advisor_max_cpu": 70,
+    "advisor_max_pages_to_scan": 30000,
+    "advisor_min_pages_to_scan": 500,
+    "advisor_mode": "[none] scan-time",
+    "advisor_target_scan_time": 200,
+    "full_scans": 0,
+    "general_profit": 0,
+    "ksm_zero_pages": 0,
+    "max_page_sharing": 256,
+    "merge_across_nodes": 1,
+    "pages_scanned": 10798505098,
+    "pages_shared": 0,
+    "pages_sharing": 0,
+    "pages_skipped": 492462142,
+    "pages_to_scan": 100,
+    "pages_unshared": 0,
+    "pages_volatile": 0,
+    "run": 2,
+    "sleep_millisecs": 20,
+    "smart_scan": 1,
+    "stable_node_chains": 0,
+    "stable_node_chains_prune_millisecs": 2000,
+    "stable_node_dups": 0,
+    "use_zero_pages": 0
+  },
+  "git": {
+    "commit": "bd9b67b",
+    "dirty": true
+  }
+}

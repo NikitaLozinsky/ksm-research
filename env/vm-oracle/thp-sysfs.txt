@@ -1,0 +1,7 @@
+# содержимое /sys/kernel/mm/transparent_hugepage (снято 2026-10-16T18:41:41+00:00)
+defrag=always defer defer+madvise [madvise] never
+enabled=[always] madvise never
+hpage_pmd_size=2097152
+shmem_enabled=always within_size [advise] never deny force
+shrink_underused=1
+use_zero_page=1

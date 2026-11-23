@@ -1,0 +1,8 @@
+# содержимое /sys/devices/system/cpu/intel_pstate (снято 2026-11-18T14:15:23+03:00)
+hwp_dynamic_boost=0
+max_perf_pct=100
+min_perf_pct=9
+no_turbo=0
+num_pstates=41
+status=active
+turbo_pct=33

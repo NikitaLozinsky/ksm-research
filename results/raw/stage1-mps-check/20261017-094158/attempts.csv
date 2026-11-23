@@ -1,0 +1,12 @@
+scenario,value,result,value_after,pages_shared
+empty,1,Invalid argument,256,0
+empty,0,Invalid argument,256,0
+empty,-1,Invalid argument,256,0
+empty,abc,Invalid argument,256,0
+empty,2,OK,2,0
+empty,2147483647,OK,2147483647,0
+empty,2147483648,Numerical result out of range,2147483647,0
+empty,256,OK,256,0
+run1_merged,1024,Device or resource busy,256,16
+run0_merged,1024,Device or resource busy,256,16
+run2_unmerged,1024,OK,1024,0

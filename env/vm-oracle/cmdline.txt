@@ -1,0 +1,2 @@
+# $ cat /proc/cmdline
+BOOT_IMAGE=/vmlinuz-linux root=UUID=f430978e-5d2d-413c-8a5d-fc088585bd3c rw zswap.enabled=0 rootfstype=ext4 loglevel=3 quiet

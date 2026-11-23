@@ -1,0 +1,1 @@
+ksm_launch: pid=1 PR_GET_MEMORY_MERGE=1, exec /probe/ksm_probe

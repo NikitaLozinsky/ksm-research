@@ -1,0 +1,57 @@
+{
+  "run": {
+    "experiment": "stage1-cow-cost",
+    "config": "merged-thp",
+    "rep": 1,
+    "mib": 64,
+    "distinct": 256,
+    "mode": "madvise",
+    "thp_flag": "default",
+    "pages_sharing_before_touch": 16128,
+    "order": "merged-thp merged-nothp plain-thp plain-nothp"
+  },
+  "timestamp_utc": "2026-10-17T11:09:26.295348+00:00",
+  "host": {
+    "hostname": "archlinux",
+    "virt": "oracle",
+    "kernel": "7.2.9-arch1-1",
+    "nproc": 4,
+    "mem_total": "7956052 kB",
+    "swap_total": "4194300 kB",
+    "swaps": "Filename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n/dev/zram0                              partition\t4194300\t\t0\t\t100",
+    "clocksource": "kvm-clock",
+    "thp_enabled": "[always] madvise never",
+    "thp_defrag": "always defer defer+madvise [madvise] never",
+    "loadavg": "0.13 0.26 0.48 1/181 480946"
+  },
+  "ksm": {
+    "advisor_max_cpu": 70,
+    "advisor_max_pages_to_scan": 30000,
+    "advisor_min_pages_to_scan": 500,
+    "advisor_mode": "[none] scan-time",
+    "advisor_target_scan_time": 2,
+    "full_scans": 2,
+    "general_profit": 65011712,
+    "ksm_zero_pages": 0,
+    "max_page_sharing": 256,
+    "merge_across_nodes": 1,
+    "pages_scanned": 4677459047,
+    "pages_shared": 256,
+    "pages_sharing": 16128,
+    "pages_skipped": 300402871,
+    "pages_to_scan": 5000,
+    "pages_unshared": 0,
+    "pages_volatile": 0,
+    "run": 0,
+    "sleep_millisecs": 20,
+    "smart_scan": 1,
+    "stable_node_chains": 0,
+    "stable_node_chains_prune_millisecs": 2000,
+    "stable_node_dups": 0,
+    "use_zero_pages": 0
+  },
+  "git": {
+    "commit": "87bc15b",
+    "dirty": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "run": {
+    "experiment": "stage2-rerun",
+    "workload": "python",
+    "n": 8,
+    "ksm_cfg": "default",
+    "rep": 4,
+    "image": "localhost/ksm-python:latest",
+    "image_digest": "sha256:2a0599a5c7184820f0268b19242cbe1a82af4a62f46ea2fa7733e882eecd7e3c",
+    "warm_s": 30,
+    "min_s": 60,
+    "max_s": 900,
+    "stable_s": 60,
+    "min_scans": 3,
+    "containers": "fb7f676f1231=783304 f958cd446678=783322 6a02e6ecdd4b=783341 1373edd7b430=783382 3556fc8e39ab=783410 fb9777f5a475=783434 2cd9d43580cd=783461 b3fe283f0046=783486",
+    "order": "python:8:default python:4:default"
+  },
+  "timestamp_utc": "2026-10-18T08:47:14.884694+00:00",
+  "host": {
+    "hostname": "archlinux",
+    "virt": "oracle",
+    "kernel": "7.2.9-arch1-1",
+    "nproc": 4,
+    "mem_total": "7956052 kB",
+    "swap_total": "4194300 kB",
+    "swaps": "Filename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n/dev/zram0                              partition\t4194300\t\t0\t\t100",
+    "clocksource": "kvm-clock",
+    "thp_enabled": "[always] madvise never",
+    "thp_defrag": "always defer defer+madvise [madvise] never",
+    "loadavg": "0.79 0.50 0.43 1/267 783647"
+  },
+  "ksm": {
+    "advisor_max_cpu": 70,
+    "advisor_max_pages_to_scan": 30000,
+    "advisor_min_pages_to_scan": 500,
+    "advisor_mode": "[none] scan-time",
+    "advisor_target_scan_time": 2,
+    "full_scans": 0,
+    "general_profit": 0,
+    "ksm_zero_pages": 0,
+    "max_page_sharing": 256,
+    "merge_across_nodes": 1,
+    "pages_scanned": 4925512620,
+    "pages_shared": 0,
+    "pages_sharing": 0,
+    "pages_skipped": 587498617,
+    "pages_to_scan": 100,
+    "pages_unshared": 0,
+    "pages_volatile": 0,
+    "run": 2,
+    "sleep_millisecs": 20,
+    "smart_scan": 1,
+    "stable_node_chains": 0,
+    "stable_node_chains_prune_millisecs": 2000,
+    "stable_node_dups": 0,
+    "use_zero_pages": 0
+  },
+  "git": {
+    "commit": "8daa06a",
+    "dirty": true
+  }
+}

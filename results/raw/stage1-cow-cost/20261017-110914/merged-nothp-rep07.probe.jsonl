@@ -1,0 +1,2 @@
+{"event":"touch","pid":519610,"t_start_mono":62019.700144,"t_end_mono":62019.755923,"duration_s":0.055779,"pages":16384}
+{"role":"main","pid":519610,"ppid":480801,"mode":"madvise","pages":16384,"distinct":256,"pr_get_at_start":0,"pr_get_now":0,"ksm_merge_any":0,"ksm_mergeable":1,"ksm_merging_pages":16384,"ksm_rmap_items":16384,"ksm_process_profit":66060288}

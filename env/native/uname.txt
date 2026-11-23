@@ -1,0 +1,2 @@
+# $ uname -a
+Linux archarnel 7.3.4-arch1-2 #1 SMP PREEMPT_DYNAMIC Thu, 12 Nov 2026 20:11:37 +0000 x86_64 GNU/Linux

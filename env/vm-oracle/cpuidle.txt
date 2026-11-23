@@ -1,0 +1,5 @@
+# содержимое /sys/devices/system/cpu/cpuidle (снято 2026-10-16T18:41:42+00:00)
+available_governors=ladder menu teo haltpoll 
+current_driver=none
+current_governor=menu
+current_governor_ro=menu

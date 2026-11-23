@@ -1,0 +1,10 @@
+# Диагностика (1 запуск, не серия): какие процессы пользователя получают ksm_merge_any=yes
+# при запуске контейнера через ksm_launch снаружи (outer) и внутри (inner). ksm_probe 16 МиБ.
+# Снято через 4 с после старта; ядро 7.2.9, podman 6.1.4 rootless, crun 1.30.1.
+=== вариант outer
+  266048   podman         RssAnon=21808 kB
+  266061   conmon         RssAnon=244 kB
+  266063   ksm_probe      RssAnon=16436 kB
+=== вариант inner
+ksm_launch: pid=1 PR_GET_MEMORY_MERGE=1, exec /probe/ksm_probe
+  266115   ksm_probe      RssAnon=16436 kB

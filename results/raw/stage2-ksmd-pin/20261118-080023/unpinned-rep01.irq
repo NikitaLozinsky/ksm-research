@@ -1,0 +1,4 @@
+before  CAL:     669052     650265     580869     699272     511027     584112     516815     507915  Function call interrupts
+before  TLB:     317976     359510     343527     487384     310016     389933     325115     321804  TLB shootdowns
+after  CAL:     669786     652661     582410     699900     518701     601905     517599     513707  Function call interrupts
+after  TLB:     318305     361538     344769     487546     317531     407599     325774     327358  TLB shootdowns

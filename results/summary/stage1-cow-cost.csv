@@ -1,0 +1,17 @@
+series,config,metric,n,median,q1,q3,min,max
+results/raw/stage1-cow-cost/20261017-110914,merged-nothp,us_per_page,10,3.259368896484375,2.953094482421875,3.393157958984375,2.33837890625,3.7073974609375
+results/raw/stage1-cow-cost/20261017-110914,merged-nothp,duration_s,10,0.0534015,0.048383499999999996,0.055593500000000004,0.038312,0.060742
+results/raw/stage1-cow-cost/20261017-110914,merged-nothp,cow_ksm_delta,10,16384.0,16384.0,16384.0,16384.0,16384.0
+results/raw/stage1-cow-cost/20261017-110914,merged-nothp,pages_sharing_before,10,16128.0,16128.0,16128.0,16128.0,16128.0
+results/raw/stage1-cow-cost/20261017-110914,merged-thp,us_per_page,10,3.02349853515625,2.8354034423828125,3.8748168945312504,2.5595703125,12.02935791015625
+results/raw/stage1-cow-cost/20261017-110914,merged-thp,duration_s,10,0.049537,0.04645525,0.063485,0.041936,0.197089
+results/raw/stage1-cow-cost/20261017-110914,merged-thp,cow_ksm_delta,10,16384.0,16384.0,16384.0,16384.0,16384.0
+results/raw/stage1-cow-cost/20261017-110914,merged-thp,pages_sharing_before,10,16128.0,16128.0,16128.0,16128.0,16128.0
+results/raw/stage1-cow-cost/20261017-110914,plain-nothp,us_per_page,10,0.054351806640625,0.045654296875,0.0650177001953125,0.0382080078125,0.12469482421875
+results/raw/stage1-cow-cost/20261017-110914,plain-nothp,duration_s,10,0.0008905,0.000748,0.00106525,0.000626,0.002043
+results/raw/stage1-cow-cost/20261017-110914,plain-nothp,cow_ksm_delta,10,0.0,0.0,0.0,0.0,0.0
+results/raw/stage1-cow-cost/20261017-110914,plain-nothp,pages_sharing_before,10,0.0,0.0,0.0,0.0,0.0
+results/raw/stage1-cow-cost/20261017-110914,plain-thp,us_per_page,10,0.01666259765625,0.014312744140625,0.0301666259765625,0.0133056640625,0.13311767578125
+results/raw/stage1-cow-cost/20261017-110914,plain-thp,duration_s,10,0.000273,0.0002345,0.00049425,0.000218,0.002181
+results/raw/stage1-cow-cost/20261017-110914,plain-thp,cow_ksm_delta,10,0.0,0.0,0.0,0.0,0.0
+results/raw/stage1-cow-cost/20261017-110914,plain-thp,pages_sharing_before,10,0.0,0.0,0.0,0.0,0.0

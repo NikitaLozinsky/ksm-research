@@ -1,0 +1,173 @@
+{
+  "host": {
+    "arch": "amd64",
+    "buildahVersion": "1.46.0",
+    "cgroupManager": "systemd",
+    "cgroupVersion": "v2",
+    "cgroupControllers": [
+      "cpu",
+      "memory",
+      "pids"
+    ],
+    "cdiSpecDirs": [
+      "/etc/cdi",
+      "/var/run/cdi"
+    ],
+    "conmon": {
+      "package": "conmon-1:2.2.1-1",
+      "path": "/usr/bin/conmon",
+      "version": "conmon version 2.2.1, commit: c8cc2c4db27531bd4e084ce7857f73cd21ee639d"
+    },
+    "cpus": 8,
+    "cpuUtilization": {
+      "userPercent": 2.16,
+      "systemPercent": 1.09,
+      "idlePercent": 96.75
+    },
+    "databaseBackend": "sqlite",
+    "distribution": {
+      "distribution": "arch",
+      "version": "unknown"
+    },
+    "eventLogger": "journald",
+    "freeLocks": 2048,
+    "hostname": "archarnel",
+    "idMappings": {
+      "gidmap": [
+        {
+          "container_id": 0,
+          "host_id": 1000,
+          "size": 1
+        },
+        {
+          "container_id": 1,
+          "host_id": 100000,
+          "size": 65536
+        }
+      ],
+      "uidmap": [
+        {
+          "container_id": 0,
+          "host_id": 1000,
+          "size": 1
+        },
+        {
+          "container_id": 1,
+          "host_id": 100000,
+          "size": 65536
+        }
+      ]
+    },
+    "kernel": "7.3.4-arch1-2",
+    "logDriver": "journald",
+    "memFree": 6474199040,
+    "memAvailable": 11050672128,
+    "memTotal": 16425062400,
+    "networkBackend": "netavark",
+    "networkBackendInfo": {
+      "backend": "netavark",
+      "version": "netavark 2.1.0",
+      "package": "netavark-2.1.0-3",
+      "path": "/usr/lib/podman/netavark",
+      "dns": {
+        "version": "aardvark-dns 2.1.0",
+        "package": "aardvark-dns-2.1.0-3",
+        "path": "/usr/lib/podman/aardvark-dns"
+      },
+      "defaultNetwork": "podman"
+    },
+    "ociRuntime": {
+      "name": "runc",
+      "package": "runc-1.5.3-1",
+      "path": "/usr/bin/runc",
+      "version": "runc version 1.5.3\nspec: 1.3.0\ngo: go1.27.4-X:nodwarf5\nlibseccomp: 2.6.0\nlibpathrs: 0.2.6",
+      "features": "{\"ociVersionMin\":\"1.0.0\",\"ociVersionMax\":\"1.3.0\",\"hooks\":[\"prestart\",\"createRuntime\",\"createContainer\",\"startContainer\",\"poststart\",\"poststop\"],\"mountOptions\":[\"async\",\"atime\",\"bind\",\"defaults\",\"dev\",\"diratime\",\"dirsync\",\"exec\",\"iversion\",\"lazytime\",\"loud\",\"mand\",\"noatime\",\"nodev\",\"nodiratime\",\"noexec\",\"noiversion\",\"nolazytime\",\"nomand\",\"norelatime\",\"nostrictatime\",\"nosuid\",\"nosymfollow\",\"private\",\"ratime\",\"rbind\",\"rdev\",\"rdiratime\",\"relatime\",\"remount\",\"rexec\",\"rnoatime\",\"rnodev\",\"rnodiratime\",\"rnoexec\",\"rnorelatime\",\"rnostrictatime\",\"rnosuid\",\"rnosymfollow\",\"ro\",\"rprivate\",\"rrelatime\",\"rro\",\"rrw\",\"rshared\",\"rslave\",\"rstrictatime\",\"rsuid\",\"rsymfollow\",\"runbindable\",\"rw\",\"shared\",\"silent\",\"slave\",\"strictatime\",\"suid\",\"symfollow\",\"sync\",\"tmpcopyup\",\"unbindable\"],\"linux\":{\"namespaces\":[\"cgroup\",\"ipc\",\"mount\",\"network\",\"pid\",\"time\",\"user\",\"uts\"],\"capabilities\":[\"CAP_CHOWN\",\"CAP_DAC_OVERRIDE\",\"CAP_DAC_READ_SEARCH\",\"CAP_FOWNER\",\"CAP_FSETID\",\"CAP_KILL\",\"CAP_SETGID\",\"CAP_SETUID\",\"CAP_SETPCAP\",\"CAP_LINUX_IMMUTABLE\",\"CAP_NET_BIND_SERVICE\",\"CAP_NET_BROADCAST\",\"CAP_NET_ADMIN\",\"CAP_NET_RAW\",\"CAP_IPC_LOCK\",\"CAP_IPC_OWNER\",\"CAP_SYS_MODULE\",\"CAP_SYS_RAWIO\",\"CAP_SYS_CHROOT\",\"CAP_SYS_PTRACE\",\"CAP_SYS_PACCT\",\"CAP_SYS_ADMIN\",\"CAP_SYS_BOOT\",\"CAP_SYS_NICE\",\"CAP_SYS_RESOURCE\",\"CAP_SYS_TIME\",\"CAP_SYS_TTY_CONFIG\",\"CAP_MKNOD\",\"CAP_LEASE\",\"CAP_AUDIT_WRITE\",\"CAP_AUDIT_CONTROL\",\"CAP_SETFCAP\",\"CAP_MAC_OVERRIDE\",\"CAP_MAC_ADMIN\",\"CAP_SYSLOG\",\"CAP_WAKE_ALARM\",\"CAP_BLOCK_SUSPEND\",\"CAP_AUDIT_READ\",\"CAP_PERFMON\",\"CAP_BPF\",\"CAP_CHECKPOINT_RESTORE\"],\"cgroup\":{\"v1\":true,\"v2\":true,\"systemd\":true,\"systemdUser\":true,\"rdma\":true},\"seccomp\":{\"enabled\":true,\"actions\":[\"SCMP_ACT_ALLOW\",\"SCMP_ACT_ERRNO\",\"SCMP_ACT_KILL\",\"SCMP_ACT_KILL_PROCESS\",\"SCMP_ACT_KILL_THREAD\",\"SCMP_ACT_LOG\",\"SCMP_ACT_NOTIFY\",\"SCMP_ACT_TRACE\",\"SCMP_ACT_TRAP\"],\"operators\":[\"SCMP_CMP_EQ\",\"SCMP_CMP_GE\",\"SCMP_CMP_GT\",\"SCMP_CMP_LE\",\"SCMP_CMP_LT\",\"SCMP_CMP_MASKED_EQ\",\"SCMP_CMP_NE\"],\"archs\":[\"SCMP_ARCH_AARCH64\",\"SCMP_ARCH_ARM\",\"SCMP_ARCH_LOONGARCH64\",\"SCMP_ARCH_MIPS\",\"SCMP_ARCH_MIPS64\",\"SCMP_ARCH_MIPS64N32\",\"SCMP_ARCH_MIPSEL\",\"SCMP_ARCH_MIPSEL64\",\"SCMP_ARCH_MIPSEL64N32\",\"SCMP_ARCH_PPC\",\"SCMP_ARCH_PPC64\",\"SCMP_ARCH_PPC64LE\",\"SCMP_ARCH_RISCV64\",\"SCMP_ARCH_S390\",\"SCMP_ARCH_S390X\",\"SCMP_ARCH_X32\",\"SCMP_ARCH_X86\",\"SCMP_ARCH_X86_64\"],\"knownFlags\":[\"SECCOMP_FILTER_FLAG_TSYNC\",\"SECCOMP_FILTER_FLAG_SPEC_ALLOW\",\"SECCOMP_FILTER_FLAG_LOG\",\"SECCOMP_FILTER_FLAG_WAIT_KILLABLE_RECV\"],\"supportedFlags\":[\"SECCOMP_FILTER_FLAG_TSYNC\",\"SECCOMP_FILTER_FLAG_SPEC_ALLOW\",\"SECCOMP_FILTER_FLAG_LOG\",\"SECCOMP_FILTER_FLAG_WAIT_KILLABLE_RECV\"]},\"apparmor\":{\"enabled\":true},\"selinux\":{\"enabled\":true},\"intelRdt\":{\"enabled\":true,\"schemata\":true,\"monitoring\":true},\"memoryPolicy\":{\"modes\":[\"MPOL_BIND\",\"MPOL_DEFAULT\",\"MPOL_INTERLEAVE\",\"MPOL_LOCAL\",\"MPOL_PREFERRED\",\"MPOL_PREFERRED_MANY\",\"MPOL_WEIGHTED_INTERLEAVE\"],\"flags\":[\"MPOL_F_NUMA_BALANCING\",\"MPOL_F_RELATIVE_NODES\",\"MPOL_F_STATIC_NODES\"]},\"mountExtensions\":{\"idmap\":{\"enabled\":true}},\"netDevices\":{\"enabled\":true}},\"annotations\":{\"com.cyphar.pathrs.libpathrs.version\":\"0.2.6\",\"io.github.seccomp.libseccomp.version\":\"2.6.0\",\"org.opencontainers.runc.checkpoint.enabled\":\"true\",\"org.opencontainers.runc.commit\":\"\",\"org.opencontainers.runc.version\":\"1.5.3\"},\"potentiallyUnsafeConfigAnnotations\":[\"bundle\",\"org.systemd.property.\",\"org.criu.config\"]}"
+    },
+    "os": "linux",
+    "remoteSocket": {
+      "path": "/run/user/1000/podman/podman.sock",
+      "exists": true
+    },
+    "rootlessNetworkCmd": "pasta",
+    "rootlessPortForwarder": "rootlessport",
+    "serviceIsRemote": false,
+    "security": {
+      "apparmorEnabled": false,
+      "capabilities": "CAP_CHOWN,CAP_DAC_OVERRIDE,CAP_FOWNER,CAP_FSETID,CAP_KILL,CAP_NET_BIND_SERVICE,CAP_SETFCAP,CAP_SETGID,CAP_SETPCAP,CAP_SETUID,CAP_SYS_CHROOT",
+      "rootless": true,
+      "seccompEnabled": true,
+      "seccompProfilePath": "/usr/share/containers/seccomp.json",
+      "selinuxEnabled": false
+    },
+    "pasta": {
+      "executable": "/usr/bin/pasta",
+      "package": "passt-2026_10_02.cba3570-1",
+      "version": "pasta 2026_10_02.cba3570\nCopyright Red Hat\nGNU General Public License, version 2 or later\n  \u003chttps://www.gnu.org/licenses/old-licenses/gpl-2.0.html\u003e\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n"
+    },
+    "swapFree": 8213491712,
+    "swapTotal": 8213491712,
+    "uptime": "11h 9m 12.00s (Approximately 0.46 days)",
+    "variant": "",
+    "linkmode": "dynamic"
+  },
+  "store": {
+    "containerStore": {
+      "number": 0,
+      "paused": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "graphDriverName": "overlay",
+    "graphOptions": {
+      "overlay.mountopt": "nodev"
+    },
+    "graphRoot": "/home/milk13/.local/share/containers/storage",
+    "graphRootAllocated": 217648173056,
+    "graphRootUsed": 171798872064,
+    "graphStatus": {
+      "Backing Filesystem": "extfs",
+      "Native Overlay Diff": "true",
+      "Supports d_type": "true",
+      "Supports shifting": "false",
+      "Supports volatile": "true",
+      "Using metacopy": "false"
+    },
+    "imageCopyTmpDir": "/var/tmp",
+    "imageStore": {
+      "number": 24
+    },
+    "runRoot": "/run/user/1000/containers",
+    "volumePath": "/home/milk13/.local/share/containers/storage/volumes",
+    "transientStore": false
+  },
+  "registries": {
+    
+  },
+  "plugins": {
+    "volume": [
+      "local"
+    ],
+    "network": [
+      "bridge",
+      "macvlan",
+      "ipvlan"
+    ],
+    "log": [
+      "k8s-file",
+      "none",
+      "passthrough",
+      "journald"
+    ],
+    "authorization": null
+  },
+  "version": {
+    "APIVersion": "6.2.0",
+    "Version": "6.2.0",
+    "GoVersion": "go1.27.3-X:nodwarf5",
+    "GitCommit": "055de046937d29450f310fce0fe3071485d8bed9",
+    "BuiltTime": "Tue Nov 10 23:21:28 2026",
+    "Built": 1794342088,
+    "OsArch": "linux/amd64",
+    "Os": "linux"
+  }
+}

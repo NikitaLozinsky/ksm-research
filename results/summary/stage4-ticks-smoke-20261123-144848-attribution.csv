@@ -1,0 +1,181 @@
+признак,плохие,обычные,случайные_той_же_длины,обогащение_к_обычным,обогащение_к_случайным,run,phase,metric
+доля окон: ksmd_any,0.0,0.0,0.0,,,godot-off-rep1,pre,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,godot-off-rep1,pre,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,godot-off-rep1,pre,work_ms
+среднее: merges,0.0,0.0,0.0,,,godot-off-rep1,pre,work_ms
+среднее: cow,,,,,,godot-off-rep1,pre,work_ms
+доля окон: ksmd_any,0.0,0.0012568077084206116,0.0,0.0,,godot-off-rep1,pre,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,godot-off-rep1,pre,interval_ms
+среднее: ksmd_on_s,0.0,2.5136162677899186e-09,0.0,0.0,,godot-off-rep1,pre,interval_ms
+среднее: merges,0.0,0.0,0.0,,,godot-off-rep1,pre,interval_ms
+среднее: cow,,,,,,godot-off-rep1,pre,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,godot-off-rep1,merge,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,godot-off-rep1,merge,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,godot-off-rep1,merge,work_ms
+среднее: merges,0.0,0.0,0.0,,,godot-off-rep1,merge,work_ms
+среднее: cow,,,,,,godot-off-rep1,merge,work_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,godot-off-rep1,merge,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,godot-off-rep1,merge,interval_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,godot-off-rep1,merge,interval_ms
+среднее: merges,0.0,0.0,0.0,,,godot-off-rep1,merge,interval_ms
+среднее: cow,,,,,,godot-off-rep1,merge,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,godot-off-rep1,steady,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,godot-off-rep1,steady,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,godot-off-rep1,steady,work_ms
+среднее: merges,0.0,0.0,0.0,,,godot-off-rep1,steady,work_ms
+среднее: cow,,,,,,godot-off-rep1,steady,work_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,godot-off-rep1,steady,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,godot-off-rep1,steady,interval_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,godot-off-rep1,steady,interval_ms
+среднее: merges,0.0,0.0,0.0,,,godot-off-rep1,steady,interval_ms
+среднее: cow,,,,,,godot-off-rep1,steady,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0010204081632653062,,0.0,godot-on-rep1,pre,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,godot-on-rep1,pre,work_ms
+среднее: ksmd_on_s,0.0,0.0,3.255077843983154e-07,,0.0,godot-on-rep1,pre,work_ms
+среднее: merges,0.0,0.0,0.0,,,godot-on-rep1,pre,work_ms
+среднее: cow,7.0,6.97516694490818,6.985714285714286,1.0035602094240839,1.0020449897750512,godot-on-rep1,pre,work_ms
+доля окон: ksmd_any,0.0,0.0016722408026755853,0.0010204081632653062,0.0,0.0,godot-on-rep1,pre,interval_ms
+доля окон: scan_bound,0.0,0.0016722408026755853,0.0010204081632653062,0.0,0.0,godot-on-rep1,pre,interval_ms
+среднее: ksmd_on_s,0.0,1.5585284279609748e-06,9.510204080823092e-07,0.0,0.0,godot-on-rep1,pre,interval_ms
+среднее: merges,0.0,0.0,0.0,,,godot-on-rep1,pre,interval_ms
+среднее: cow,7.0,6.98683110367893,7.0,1.0018848167539267,1.0,godot-on-rep1,pre,interval_ms
+доля окон: ksmd_any,0.2857142857142857,0.16193878265742104,0.1812925170068027,1.764335145823035,1.575984990619137,godot-on-rep1,merge,work_ms
+доля окон: scan_bound,0.0,0.0002101281781886951,0.0,0.0,,godot-on-rep1,merge,work_ms
+среднее: ksmd_on_s,6.729245318774392e-05,1.4132319461342255e-05,3.973034338983149e-05,4.761600059481859,1.6937294633342288,godot-on-rep1,merge,work_ms
+среднее: merges,0.19047619047619047,0.05015059186103523,0.11292517006802721,3.7980845969672785,1.686746987951807,godot-on-rep1,merge,work_ms
+среднее: cow,6.8979591836734695,7.400714435805842,7.368367346938776,0.9320666597132891,0.9361584268106911,godot-on-rep1,merge,work_ms
+доля окон: ksmd_any,0.9172413793103448,0.8295844720061664,0.9368965517241379,1.1056636307237038,0.9790209790209791,godot-on-rep1,merge,interval_ms
+доля окон: scan_bound,0.006896551724137931,0.0324434167192208,0.034482758620689655,0.21257168392045878,0.2,godot-on-rep1,merge,interval_ms
+среднее: ksmd_on_s,0.004196768902304406,0.0026048881468829772,0.003209555286700285,1.611112902228175,1.3075857953576697,godot-on-rep1,merge,interval_ms
+среднее: merges,5.2827586206896555,11.73302501576624,16.214827586206898,0.45024694088616996,0.325798013737958,godot-on-rep1,merge,interval_ms
+среднее: cow,8.213793103448277,7.905963142036297,7.951379310344827,1.0389364275903636,1.0330022984517977,godot-on-rep1,merge,interval_ms
+доля окон: ksmd_any,0.3103448275862069,0.13343799058084774,0.1456896551724138,2.325760649087221,2.130177514792899,godot-on-rep1,steady,work_ms
+доля окон: scan_bound,0.0,0.00017442874585731728,0.0017241379310344827,0.0,0.0,godot-on-rep1,steady,work_ms
+среднее: ksmd_on_s,6.78752231296726e-05,1.1859086940327727e-05,2.9282422028229812e-05,5.723477993812301,2.3179511265918262,godot-on-rep1,steady,work_ms
+среднее: merges,0.0,0.0015698587127158557,0.005172413793103448,0.0,0.0,godot-on-rep1,steady,work_ms
+среднее: cow,7.793103448275862,8.371707657421943,8.45,0.9308857603701535,0.9222607631095695,godot-on-rep1,steady,work_ms
+доля окон: ksmd_any,0.9310344827586207,0.8251528384279476,0.9612068965517241,1.12831761511285,0.968609865470852,godot-on-rep1,steady,interval_ms
+доля окон: scan_bound,0.08620689655172414,0.04646288209606987,0.06982758620689655,1.8553927923256417,1.234567901234568,godot-on-rep1,steady,interval_ms
+среднее: ksmd_on_s,0.002499854792984416,0.0021375981523075755,0.0025731032600247246,1.1694690090772104,0.9715330246639209,godot-on-rep1,steady,interval_ms
+среднее: merges,0.1206896551724138,0.7016593886462882,1.0103448275862068,0.17200604328157057,0.11945392491467578,godot-on-rep1,steady,interval_ms
+среднее: cow,9.948275862068966,9.043318777292576,9.35603448275862,1.1000691346907623,1.0633004699161523,godot-on-rep1,steady,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,luanti-off-rep1,pre,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,luanti-off-rep1,pre,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,luanti-off-rep1,pre,work_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-off-rep1,pre,work_ms
+среднее: cow,,,,,,luanti-off-rep1,pre,work_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,luanti-off-rep1,pre,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,luanti-off-rep1,pre,interval_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,luanti-off-rep1,pre,interval_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-off-rep1,pre,interval_ms
+среднее: cow,,,,,,luanti-off-rep1,pre,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,luanti-off-rep1,merge,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,luanti-off-rep1,merge,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,luanti-off-rep1,merge,work_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-off-rep1,merge,work_ms
+среднее: cow,,,,,,luanti-off-rep1,merge,work_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,luanti-off-rep1,merge,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,luanti-off-rep1,merge,interval_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,luanti-off-rep1,merge,interval_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-off-rep1,merge,interval_ms
+среднее: cow,,,,,,luanti-off-rep1,merge,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,luanti-off-rep1,steady,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,luanti-off-rep1,steady,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,luanti-off-rep1,steady,work_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-off-rep1,steady,work_ms
+среднее: cow,,,,,,luanti-off-rep1,steady,work_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,luanti-off-rep1,steady,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,luanti-off-rep1,steady,interval_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,luanti-off-rep1,steady,interval_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-off-rep1,steady,interval_ms
+среднее: cow,,,,,,luanti-off-rep1,steady,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,luanti-on-rep1,pre,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,luanti-on-rep1,pre,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,luanti-on-rep1,pre,work_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-on-rep1,pre,work_ms
+среднее: cow,126.0,125.35837046467218,126.0,1.0051183621241204,1.0,luanti-on-rep1,pre,work_ms
+доля окон: ksmd_any,0.0,0.0019193857965451055,0.0,0.0,,luanti-on-rep1,pre,interval_ms
+доля окон: scan_bound,0.0,0.0019193857965451055,0.0,0.0,,luanti-on-rep1,pre,interval_ms
+среднее: ksmd_on_s,0.0,1.080614202690486e-06,0.0,0.0,,luanti-on-rep1,pre,interval_ms
+среднее: merges,0.0,0.0,0.0,,,luanti-on-rep1,pre,interval_ms
+среднее: cow,126.0,126.0,126.0,1.0,1.0,luanti-on-rep1,pre,interval_ms
+доля окон: ksmd_any,0.25,0.11336032388663968,0.14583333333333334,2.205357142857143,1.7142857142857142,luanti-on-rep1,merge,work_ms
+доля окон: scan_bound,0.0,0.0017046665246111229,0.0010416666666666667,0.0,0.0,luanti-on-rep1,merge,work_ms
+среднее: ksmd_on_s,0.00022203186100947883,5.013069503987662e-05,0.00012946881046029072,4.429060096471092,1.7149447826090753,luanti-on-rep1,merge,work_ms
+среднее: merges,5.479166666666667,0.5864052844662263,1.9833333333333334,9.343651586724807,2.7626050420168067,luanti-on-rep1,merge,work_ms
+среднее: cow,60.229166666666664,48.57745578521202,51.11145833333333,1.239858401250435,1.178388733772189,luanti-on-rep1,merge,work_ms
+доля окон: ksmd_any,1.0,1.0,1.0,1.0,1.0,luanti-on-rep1,merge,interval_ms
+доля окон: scan_bound,0.041666666666666664,0.061899679829242264,0.06354166666666666,0.673132183908046,0.6557377049180327,luanti-on-rep1,merge,interval_ms
+среднее: ksmd_on_s,0.007633479256734669,0.004530158376922042,0.0048516927925580456,1.6850358467866944,1.573364098494359,luanti-on-rep1,merge,interval_ms
+среднее: merges,31.958333333333332,68.59722518676628,62.41875,0.46588376200818554,0.5119989319448616,luanti-on-rep1,merge,interval_ms
+среднее: cow,55.625,57.59445037353255,60.175,0.9658048586146832,0.9243872039883673,luanti-on-rep1,merge,interval_ms
+доля окон: ksmd_any,0.5789473684210527,0.10419989367357789,0.12368421052631579,5.5561224489795915,4.680851063829787,luanti-on-rep1,steady,work_ms
+доля окон: scan_bound,0.0,0.001063264221158958,0.0,0.0,,luanti-on-rep1,steady,work_ms
+среднее: ksmd_on_s,0.0004613466472188807,4.377513401407459e-05,9.345313167518486e-05,10.539011646898635,4.9366633193458265,luanti-on-rep1,steady,work_ms
+среднее: merges,6.578947368421052,0.21903242955874536,0.45,30.036407766990287,14.61988304093567,luanti-on-rep1,steady,work_ms
+среднее: cow,20.57894736842105,45.95906432748538,42.689473684210526,0.44776689146201804,0.48206139810134385,luanti-on-rep1,steady,work_ms
+доля окон: ksmd_any,1.0,1.0,1.0,1.0,1.0,luanti-on-rep1,steady,interval_ms
+доля окон: scan_bound,0.10526315789473684,0.07528029898558462,0.07368421052631578,1.3982829413960431,1.4285714285714286,luanti-on-rep1,steady,interval_ms
+среднее: ksmd_on_s,0.003587157754066682,0.0034766150574529414,0.0034906091542612366,1.0317960702542452,1.027659527474619,luanti-on-rep1,steady,interval_ms
+среднее: merges,24.789473684210527,8.516284036305393,7.2026315789473685,2.9108321867297544,3.441724515893314,luanti-on-rep1,steady,interval_ms
+среднее: cow,51.578947368421055,55.951414842498664,48.90526315789474,0.9218524234572806,1.0546706844597504,luanti-on-rep1,steady,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,ticksrv-off-rep1,pre,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,ticksrv-off-rep1,pre,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,ticksrv-off-rep1,pre,work_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-off-rep1,pre,work_ms
+среднее: cow,,,,,,ticksrv-off-rep1,pre,work_ms
+доля окон: ksmd_any,0.0,0.0010464629552113854,0.0010204081632653062,0.0,0.0,ticksrv-off-rep1,pre,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,ticksrv-off-rep1,pre,interval_ms
+среднее: ksmd_on_s,0.0,4.1858513344010255e-09,4.081632178728184e-09,0.0,0.0,ticksrv-off-rep1,pre,interval_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-off-rep1,pre,interval_ms
+среднее: cow,,,,,,ticksrv-off-rep1,pre,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,work_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,work_ms
+среднее: cow,,,,,,ticksrv-off-rep1,merge,work_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,interval_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,interval_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-off-rep1,merge,interval_ms
+среднее: cow,,,,,,ticksrv-off-rep1,merge,interval_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,work_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,work_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,work_ms
+среднее: cow,,,,,,ticksrv-off-rep1,steady,work_ms
+доля окон: ksmd_any,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,interval_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,interval_ms
+среднее: ksmd_on_s,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,interval_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-off-rep1,steady,interval_ms
+среднее: cow,,,,,,ticksrv-off-rep1,steady,interval_ms
+доля окон: ksmd_any,0.0,0.0002090738030524775,0.0,0.0,,ticksrv-on-rep1,pre,work_ms
+доля окон: scan_bound,0.0,0.0,0.0,,,ticksrv-on-rep1,pre,work_ms
+среднее: ksmd_on_s,0.0,6.972610801975328e-10,0.0,0.0,,ticksrv-on-rep1,pre,work_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-on-rep1,pre,work_ms
+среднее: cow,157.0,156.310683671336,156.51938775510203,1.004409911801764,1.0030706243602867,ticksrv-on-rep1,pre,work_ms
+доля окон: ksmd_any,0.0,0.001256544502617801,0.0010204081632653062,0.0,0.0,ticksrv-on-rep1,pre,interval_ms
+доля окон: scan_bound,0.0,0.001256544502617801,0.0010204081632653062,0.0,0.0,ticksrv-on-rep1,pre,interval_ms
+среднее: ksmd_on_s,0.0,7.587671207528591e-07,5.343791042610157e-07,0.0,0.0,ticksrv-on-rep1,pre,interval_ms
+среднее: merges,0.0,0.0,0.0,,,ticksrv-on-rep1,pre,interval_ms
+среднее: cow,157.0,156.57256544502619,157.0,1.0027299454010918,1.0,ticksrv-on-rep1,pre,interval_ms
+доля окон: ksmd_any,0.4206896551724138,0.16330532212885154,0.19344827586206897,2.5760927426509728,2.1746880570409983,ticksrv-on-rep1,merge,work_ms
+доля окон: scan_bound,0.0,0.0002100840336134454,0.002758620689655172,0.0,0.0,ticksrv-on-rep1,merge,work_ms
+среднее: ksmd_on_s,0.00036265311719662035,2.8643226120849028e-05,0.00016099390990379547,12.661042986797144,2.252589041494362,ticksrv-on-rep1,merge,work_ms
+среднее: merges,24.46206896551724,3.4307422969187673,18.897241379310344,7.130255451564292,1.2944783037115433,ticksrv-on-rep1,merge,work_ms
+среднее: cow,400.6758620689655,245.83368347338936,261.46379310344827,1.6298655920857048,1.532433448291779,ticksrv-on-rep1,merge,work_ms
+доля окон: ksmd_any,0.8275862068965517,0.8325392376681614,0.8982758620689655,0.9940506938922392,0.9213051823416507,ticksrv-on-rep1,merge,interval_ms
+доля окон: scan_bound,0.034482758620689655,0.04000840807174888,0.05,0.8618877951567123,0.689655172413793,ticksrv-on-rep1,merge,interval_ms
+среднее: ksmd_on_s,0.0027311936137705524,0.002652447647915426,0.0030475439783123,1.0296880377326254,0.8961949796974089,ticksrv-on-rep1,merge,interval_ms
+среднее: merges,341.50344827586207,326.4688200672646,379.3786206896552,1.0460522637521703,0.9001652429835357,ticksrv-on-rep1,merge,interval_ms
+среднее: cow,534.9310344827586,568.0163256726457,619.3675862068966,0.9417529220648588,0.8636729567311706,ticksrv-on-rep1,merge,interval_ms
+доля окон: ksmd_any,0.5517241379310345,0.17321459752051685,0.2189655172413793,3.1852057842046717,2.5196850393700787,ticksrv-on-rep1,steady,work_ms
+доля окон: scan_bound,0.0,0.00034922297887200976,0.0017241379310344827,0.0,0.0,ticksrv-on-rep1,steady,work_ms
+среднее: ksmd_on_s,0.0004967625173337403,3.054816256328305e-05,0.00019251639218572533,16.26161692391991,2.580364776701722,ticksrv-on-rep1,steady,work_ms
+среднее: merges,25.74137931034483,3.4800069844595773,22.125862068965517,7.396933231828642,1.163406841736149,ticksrv-on-rep1,steady,work_ms
+среднее: cow,454.2413793103448,241.23205866946046,246.44913793103447,1.883005856749549,1.8431445251695637,ticksrv-on-rep1,steady,work_ms
+доля окон: ksmd_any,0.7068965517241379,0.8305647840531561,0.8956896551724138,0.851103448275862,0.7892204042348411,ticksrv-on-rep1,steady,interval_ms
+доля окон: scan_bound,0.034482758620689655,0.0416156670746634,0.03189655172413793,0.8286004056795132,1.081081081081081,ticksrv-on-rep1,steady,interval_ms
+среднее: ksmd_on_s,0.002857819982668373,0.002864712134307961,0.003085155878126647,0.9975941206946948,0.9263129953756776,ticksrv-on-rep1,steady,interval_ms
+среднее: merges,153.75862068965517,325.54747333449905,349.60689655172416,0.4723078299909539,0.4398043122324581,ticksrv-on-rep1,steady,interval_ms
+среднее: cow,585.3965517241379,554.0346214373142,582.9051724137931,1.0566064449284098,1.0042740730881285,ticksrv-on-rep1,steady,interval_ms

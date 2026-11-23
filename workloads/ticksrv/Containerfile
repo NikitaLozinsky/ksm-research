@@ -1,0 +1,3 @@
+FROM docker.io/archlinux/archlinux:base
+RUN pacman -Syu --noconfirm --needed godot luanti-server fontconfig \
+    && pacman -Scc --noconfirm

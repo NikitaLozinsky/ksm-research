@@ -1,0 +1,12 @@
+# Нагрузка «JVM»: сборка в JDK, запуск в JRE (двухстадийная сборка).
+FROM docker.io/library/eclipse-temurin:21-jdk-alpine AS build
+WORKDIR /src
+COPY Server.java .
+RUN javac Server.java
+
+FROM docker.io/library/eclipse-temurin:21-jre-alpine
+WORKDIR /app
+COPY --from=build /src/*.class /app/
+EXPOSE 8000
+# Куча ограничена явно, чтобы объём памяти не зависел от объёма ОЗУ хоста.
+CMD ["java", "-Xms256m", "-Xmx256m", "-cp", "/app", "Server"]

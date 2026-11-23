@@ -1,0 +1,36 @@
+systemd-detect-virt=oracle
+product_name=VirtualBox
+sys_vendor=innotek GmbH
+bios_version=VirtualBox
+# строки dmesg про гипервизор/таймеры:
+[    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[    0.000000] Hypervisor detected: KVM
+[    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+[    0.000003] kvm-clock: using sched offset of 7921548958 cycles
+[    0.000004] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+[    0.000008] tsc: Detected 3110.398 MHz processor
+[    0.013435] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+[    0.013439] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+[    0.013444] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+[    0.013448] ACPI: DSDT 0x00000000DFFF0310 002353 (v02 VBOX   VBOXBIOS 00000002 VBOX 0002AC32)
+[    0.013455] ACPI: APIC 0x00000000DFFF0240 00006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+[    0.013458] ACPI: SSDT 0x00000000DFFF02B0 00005F (v01 VBOX   VBOXCPUT 00000002 VBOX 0002AC32)
+[    0.016896] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[    0.571773] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[    0.582637] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2cd5a646d7e, max_idle_ns: 440795273267 ns
+[    0.583640] GDS: Unknown: Dependent on hypervisor status
+[    0.897155] clocksource: Switched to clocksource kvm-clock
+[    0.942517] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.950444] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2cd5a646d7e, max_idle_ns: 440795273267 ns
+[    1.508220] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    1.509937] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    1.592843] clocksource: Switched to clocksource tsc
+[    1.793671] vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+[    2.022968] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+[    2.029688] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+[    2.068117] usb 2-1: Manufacturer: VirtualBox
+[    2.083766] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input4
+[    2.084811] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+[    2.087574] clocksource: Watchdog remote CPU 2 read timed out
+[    5.489970] vboxguest: host-version: 7.2.20r175154 0x8000000f
+[    5.501271] input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7

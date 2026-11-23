@@ -1,0 +1,2 @@
+# $ uname -a
+Linux archlinux 7.2.9-arch1-1 #1 SMP PREEMPT_DYNAMIC Sat, 03 Oct 2026 11:43:28 +0000 x86_64 GNU/Linux

@@ -1,0 +1,57 @@
+{
+  "run": {
+    "experiment": "stage0-prctl-inherit",
+    "config": "host-control",
+    "scan": "aggressive",
+    "rep": 8,
+    "mib": 64,
+    "distinct": 256,
+    "hold_s": 15,
+    "image": "docker.io/library/alpine:3.22",
+    "order": "ctr-systemd host-control host-fork host-exec host-fork-exec ctr-control ctr-outer ctr-inner"
+  },
+  "timestamp_utc": "2026-11-18T01:10:30.389494+00:00",
+  "host": {
+    "hostname": "archarnel",
+    "virt": "none",
+    "kernel": "7.3.4-arch1-2",
+    "nproc": 8,
+    "mem_total": "16040100 kB",
+    "swap_total": "8020988 kB",
+    "swaps": "Filename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n/dev/zram0                              partition\t8020988\t\t0\t\t100",
+    "clocksource": "tsc",
+    "thp_enabled": "[always] madvise never",
+    "thp_defrag": "always defer defer+madvise [madvise] never",
+    "loadavg": "0.68 0.64 0.78 1/890 240013"
+  },
+  "ksm": {
+    "advisor_max_cpu": 70,
+    "advisor_max_pages_to_scan": 30000,
+    "advisor_min_pages_to_scan": 500,
+    "advisor_mode": "[none] scan-time",
+    "advisor_target_scan_time": 200,
+    "full_scans": 0,
+    "general_profit": 0,
+    "ksm_zero_pages": 0,
+    "max_page_sharing": 256,
+    "merge_across_nodes": 1,
+    "pages_scanned": 7576933698,
+    "pages_shared": 0,
+    "pages_sharing": 0,
+    "pages_skipped": 361781992,
+    "pages_to_scan": 20000,
+    "pages_unshared": 0,
+    "pages_volatile": 0,
+    "run": 2,
+    "sleep_millisecs": 0,
+    "smart_scan": 1,
+    "stable_node_chains": 0,
+    "stable_node_chains_prune_millisecs": 2000,
+    "stable_node_dups": 0,
+    "use_zero_pages": 0
+  },
+  "git": {
+    "commit": "bd9b67b",
+    "dirty": true
+  }
+}

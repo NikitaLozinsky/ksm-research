@@ -1,0 +1,17 @@
+series,config,scan,n,rc_errors,inherited,merged,merged_frac_median,merged_frac_min
+results/raw/stage0-prctl-inherit/20261016-193145,host-control,aggressive,10,0,0,0,0.0,0.0
+results/raw/stage0-prctl-inherit/20261016-193145,host-control,default,10,0,0,0,0.0,0.0
+results/raw/stage0-prctl-inherit/20261016-193145,host-fork,aggressive,10,0,10,10,1.0001220703125,1.0001220703125
+results/raw/stage0-prctl-inherit/20261016-193145,host-fork,default,10,0,10,10,1.0001220703125,1.0001220703125
+results/raw/stage0-prctl-inherit/20261016-193145,host-exec,aggressive,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,host-exec,default,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,host-fork-exec,aggressive,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,host-fork-exec,default,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-control,aggressive,10,0,0,0,0.0,0.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-control,default,10,0,0,0,0.0,0.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-outer,aggressive,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-outer,default,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-inner,aggressive,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-inner,default,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-systemd,aggressive,10,0,10,10,1.0,1.0
+results/raw/stage0-prctl-inherit/20261016-193145,ctr-systemd,default,10,0,10,10,1.0,1.0

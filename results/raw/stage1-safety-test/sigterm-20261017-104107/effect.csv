@@ -1,0 +1,3 @@
+mps,rep,pages_shared,pages_sharing,stable_node_chains,stable_node_dups,expected_shared,expected_sharing
+2,1,2048,2048,16,2048,2048,2048
+8,1,512,3584,16,512,512,3584

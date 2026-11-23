@@ -1,0 +1,11 @@
+config_version=5
+
+[application]
+config/name="KSM tick benchmark"
+run/main_scene="res://main.tscn"
+
+[physics]
+common/physics_ticks_per_second=60
+
+[rendering]
+renderer/rendering_method="gl_compatibility"

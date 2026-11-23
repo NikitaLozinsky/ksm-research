@@ -1,0 +1,17 @@
+phase,ctr,world_ksm_kib
+pre,c1,0
+pre,c2,0
+pre,c3,0
+pre,c4,0
+pre,c5,0
+pre,c6,0
+pre,c7,0
+pre,c8,0
+end,c1,0
+end,c2,0
+end,c3,3808
+end,c4,3884
+end,c5,6140
+end,c6,9212
+end,c7,12284
+end,c8,14844

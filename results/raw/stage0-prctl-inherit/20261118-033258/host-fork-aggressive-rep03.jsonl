@@ -1,0 +1,2 @@
+{"role":"parent","pid":176941,"ppid":121686,"mode":"prctl","pages":0,"distinct":256,"pr_get_at_start":0,"pr_get_now":1,"ksm_merge_any":1,"ksm_mergeable":1,"ksm_merging_pages":0,"ksm_rmap_items":13,"ksm_process_profit":-832}
+{"role":"child","pid":176942,"ppid":176941,"mode":"prctl","pages":16384,"distinct":256,"pr_get_at_start":1,"pr_get_now":1,"ksm_merge_any":1,"ksm_mergeable":1,"ksm_merging_pages":16386,"ksm_rmap_items":16398,"ksm_process_profit":66067584}

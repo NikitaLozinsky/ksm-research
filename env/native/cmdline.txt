@@ -1,0 +1,2 @@
+# $ cat /proc/cmdline
+root=PARTUUID=ec659bcf-9473-42eb-b169-5d6652266849 zswap.enabled=0 rw rootfstype=ext4

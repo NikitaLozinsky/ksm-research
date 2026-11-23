@@ -1,0 +1,9 @@
+ _                   _   _ 
+| |_   _  __ _ _ __ | |_(_)
+| | | | |/ _` | '_ \| __| |
+| | |_| | (_| | | | | |_| |
+|_|\__,_|\__,_|_| |_|\__|_|  ___ 5.17.0
+2026-11-23 12:19:46: ACTION[Main]: World at [/out/world]
+2026-11-23 12:19:46: ACTION[Main]: Server for gameid="ksmbench" listening on 127.0.0.1:30000.
+INFO: signal_handler(): got SIGTERM, shutting down.
+2026-11-23 12:21:09: ACTION[Main]: Server: Shutting down

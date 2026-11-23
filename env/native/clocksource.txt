@@ -1,0 +1,5 @@
+# содержимое /sys/devices/system/clocksource/clocksource0 (снято 2026-11-18T14:15:23+03:00)
+available_clocksource=tsc acpi_pm 
+current_clocksource=tsc
+uevent=
+unbind_clocksource=

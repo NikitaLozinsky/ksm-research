@@ -1,0 +1,22 @@
+ошибка: пакет 'crun' не найден
+linux 7.3.4.arch1-2
+linux-docs 7.3.4.arch1-2
+glibc 2.44+r78+gfcfb867c58ab-1
+gcc 16.2.1+r23+gd564253eb6c8-1
+python 3.14.10-1
+python-numpy 2.5.5-1
+python-pandas 2.3.3-7
+python-matplotlib 3.11.2-1
+python-scipy 1.18.1-1
+podman 6.2.0-1
+conmon 1:2.2.1-1
+stress-ng 0.22.02-1
+sysstat 12.8.0-1
+perf 7.3.4-1
+asciinema 3.2.1-1
+tmux 3.8-1
+jq 1.8.2-1
+nodejs 26.13.1-1
+jdk-openjdk 27.0.1.0.3.u1-1
+htop 3.5.3-1
+man-pages 6.20-1

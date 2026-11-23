@@ -1,0 +1,57 @@
+# Временные и служебные файлы
+__pycache__/
+*.pyc
+*.o
+*.swp
+# Собранные бинарники тестовых программ (собираются скриптами из исходников)
+workloads/**/bin/
+
+# Полные текстовые трассы perf (десятки МБ на прогон) — хранятся локально, в git не
+# кладутся до решения владельца о политике хранения (docs/decisions.md, Р20).
+results/raw/**/*.perf-script.txt.gz
+!results/raw/stage1-trace-check/**
+
+# Архивы трасс (вне git, см. Р20); в git только results/trace-manifests/
+archive/
+
+# Этап 2: трассы внутри каталогов прогонов и сжатые журналы каждого запроса
+# (десятки МБ на прогон) — архив + SHA-256 (Р20), не git.
+results/raw/**/perf-script.txt.gz
+results/raw/**/lat-c*.csv.gz
+results/raw/**/warmup-lat-c*.csv.gz
+results/raw/**/pgbench-c*.gz
+# Сырая трасса perf прерванного прогона (обычно удаляется после экспорта в perf-script.txt.gz)
+results/raw/**/perf.data
+
+# Состояние наблюдения за тик-серверами и локальные журналы запуска.
+results/logs/ticks-*.status*
+results/logs/ticks-*.log
+# Служебное состояние мира Luanti. Из этой папки сохраняется журнал тиков.
+results/raw/*ticks*/*/*-rep*/c*/world/*
+!results/raw/*ticks*/*/*-rep*/c*/world/ticks.csv
+
+# Локальные инструкции, промпты и файлы передачи
+/.claude/
+/.codex/
+/.agents/
+/AGENTS.md
+/CLAUDE.md
+/*PROMPT*.md
+/docs/NEXT.md
+/docs/handoff.md
+/graphify-out/
+/recordings/
+/transfer-manifest.sha256
+*.bundle
+
+# Служебные логи. Оставляем только два набора телеметрии, на которые опирается отчёт.
+/results/logs/*
+!/results/logs/blockG-ac.csv
+!/results/logs/blockG-env.csv
+/env/native/top-processes.txt
+
+# Локальные ссылки группировки данных. Канонические пути нужны сценариям и SHA-256.
+/results/vm/raw/
+/results/native/raw/
+/results/vm/trace-archives/
+/results/native/trace-archives/

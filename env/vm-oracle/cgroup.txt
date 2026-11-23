@@ -1,0 +1,2 @@
+# $ stat -fc %T /sys/fs/cgroup
+cgroup2fs

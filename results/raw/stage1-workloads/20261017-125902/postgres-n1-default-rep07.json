@@ -1,0 +1,61 @@
+{
+  "run": {
+    "experiment": "stage1-workloads",
+    "workload": "postgres",
+    "n": 1,
+    "ksm_cfg": "default",
+    "rep": 7,
+    "image": "docker.io/library/postgres:17-alpine",
+    "image_digest": "sha256:aa90e97ee862e558111d34cfb8b2c4bec768c2b039fb791341686928560263b3",
+    "warm_s": 30,
+    "min_s": 60,
+    "max_s": 300,
+    "stable_s": 30,
+    "containers": "48d99ed63480=628181",
+    "order": "node:1:default node:4:default node:8:default jvm:1:default jvm:4:default jvm:8:default postgres:1:default postgres:4:default postgres:8:default nginx:1:default nginx:4:default nginx:8:default python:1:default python:4:default python:8:default"
+  },
+  "timestamp_utc": "2026-10-17T16:49:19.033983+00:00",
+  "host": {
+    "hostname": "archlinux",
+    "virt": "oracle",
+    "kernel": "7.2.9-arch1-1",
+    "nproc": 4,
+    "mem_total": "7956052 kB",
+    "swap_total": "4194300 kB",
+    "swaps": "Filename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n/dev/zram0                              partition\t4194300\t\t0\t\t100",
+    "clocksource": "kvm-clock",
+    "thp_enabled": "[always] madvise never",
+    "thp_defrag": "always defer defer+madvise [madvise] never",
+    "loadavg": "0.10 0.19 0.20 1/206 628324"
+  },
+  "ksm": {
+    "advisor_max_cpu": 70,
+    "advisor_max_pages_to_scan": 30000,
+    "advisor_min_pages_to_scan": 500,
+    "advisor_mode": "[none] scan-time",
+    "advisor_target_scan_time": 2,
+    "full_scans": 0,
+    "general_profit": 0,
+    "ksm_zero_pages": 0,
+    "max_page_sharing": 256,
+    "merge_across_nodes": 1,
+    "pages_scanned": 4777787028,
+    "pages_shared": 0,
+    "pages_sharing": 0,
+    "pages_skipped": 485594386,
+    "pages_to_scan": 100,
+    "pages_unshared": 0,
+    "pages_volatile": 0,
+    "run": 2,
+    "sleep_millisecs": 20,
+    "smart_scan": 1,
+    "stable_node_chains": 0,
+    "stable_node_chains_prune_millisecs": 2000,
+    "stable_node_dups": 0,
+    "use_zero_pages": 0
+  },
+  "git": {
+    "commit": "87bc15b",
+    "dirty": true
+  }
+}
